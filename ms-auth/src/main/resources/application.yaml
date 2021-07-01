@@ -1,0 +1,16 @@
+server:
+  port: 19001
+spring:
+  application:
+    name: ms-auth
+  jpa:
+    show-sql: true
+    hibernate:
+      dialect: org.hibernate.dialect.PostgreSQL95Dialect
+  datasource:
+    driver-class-name: org.postgresql.Driver
+      url: jdbc:postgresql://localhost:5432/forevernote_user_db?currentSchema=user_sh
+      username: postgres
+      password: 1qaz@WSX
+  flyway:
+    enable: true
