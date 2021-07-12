@@ -13,6 +13,14 @@ public class UserInfo{
 
     private Long userId;
 
+    private String userLogin;
+
+    private String userPassword;
+
+    private String userName;
+
+    private char gender;
+
     private String userEmail;
 
     private String role;
